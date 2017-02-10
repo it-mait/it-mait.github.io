@@ -1,4 +1,7 @@
+
 body{
+  margin: 0;
+  margin-top: 40px;
   font-family: Helvetica Neue, Helvetica, Roboto, sans-serif;
   font-size: 14px;
   color: #222;
@@ -37,7 +40,7 @@ a{
 }
 
 .card:active{
-  background-color: #ddd;
+  background-color: #eee;
   color: #333;
 }
 
@@ -74,7 +77,31 @@ b{
 .subject{
   text-align: center;
 }
+.footer {
+  width: auto;
+  color: #333;
+  height: auto;
+  position: relative;
+  bottom: 0;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  letter-spacing: 0;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px; }
 
+  .heart {
+  display: inline;
+  font-size: 14px;
+  color: #f33; }
+
+  .footerlink {
+  display: inline;
+  text-decoration: none;
+  color: #333; }
 
 /* MOBILE RULES */
 @media only screen and (max-width: 768px) {
