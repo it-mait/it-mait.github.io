@@ -1,7 +1,43 @@
 body{
   font-family: Helvetica Neue, Helvetica, Roboto, sans-serif;
   color: #333;
-  background-color: #eee;
+  background-color: #e2e9ec;
+}
+
+a{
+  display: block;
+}
+
+.card{
+  -webkit-box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  color: #494986;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  margin: 5px;
+  padding: 30px 2px 50px 2px;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 380px;
+  height: auto;
+  display: inline-block;
+}
+
+.card:hover{
+  -webkit-box-shadow: 0px 12px 30px -10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 12px 30px -10px rgba(0,0,0,0.2);
+  box-shadow: 0px 12px 30px -10px rgba(0,0,0,0.2);
+  padding: 29px 1px 49px 1px;
+  border: 1px dashed #ddd;
+  color:#333;
+  background-color: #fefefe;
+}
+
+.card:active{
+  background-color: #ddd;
+  color: #333;
 }
 
 .max720{
@@ -29,5 +65,15 @@ p{
     width: auto;
     margin: 0;
     padding: 20px;
+  }
+
+  .card{
+    width: 90vw;
+    height: auto;
+    padding: 2px 2px 32px 2px;
+  }
+
+  .card:hover{
+    padding: 1px 1px 31px 1px;
   }
 }
