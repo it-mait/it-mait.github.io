@@ -1,6 +1,7 @@
 body{
   font-family: Helvetica Neue, Helvetica, Roboto, sans-serif;
-  color: #333;
+  font-size: 14px;
+  color: #222;
   background-color: #e2e9ec;
 }
 
@@ -41,6 +42,9 @@ a{
 }
 
 .max720{
+  -webkit-box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
   border-radius: 10px;
   background-color: #fff;
   width: 750px;
@@ -51,7 +55,20 @@ a{
 }
 
 p{
-  line-height: 1.4em;
+  --x-height-multiplier: 0.35;
+  --baseline-multiplier: 0.179;
+  font-family: Helvetica, Roboto, sans-serif;
+  letter-spacing: .005rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -.01em;
+}
+
+b{
+  font-size: 18px;
+  line-height: 1.8;
 }
 
 .subject{
