@@ -1,0 +1,203 @@
+body{
+  margin: 0;
+  margin-top: 40px;
+  font-family: Helvetica Neue, Helvetica, Roboto, sans-serif;
+  font-size: 14px;
+  color: #222;
+  background-color: #e2e9ec;
+}
+
+a{
+  display: block;
+}
+
+.btn{
+  transition: .4s;
+  background-color: #fff;
+  border-radius: 24px;
+  border: 2px solid #000;
+  -webkit-box-shadow: 0px 0px 0px 3px #fff;
+  -moz-box-shadow: 0px 0px 0px 3px #fff;
+  box-shadow: 0px 0px 0px 3px #fff;
+  width: 200px;
+  height: 36px;
+  line-height: 38px;
+  background-color: #fff;
+  color: #000;
+  display: block;
+  text-decoration: none;
+  padding-bottom:0px;
+}
+
+.btn:hover{
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 24px;
+  -webkit-box-shadow: 0px 0px 0px 3px #000;
+  -moz-box-shadow: 0px 0px 0px 3px #000;
+  box-shadow: 0px 0px 0px 3px #000;
+  background-color: #000;
+}
+
+.btn:active{
+  -webkit-box-shadow: 0px 1px 0px 4px #333;
+  -moz-box-shadow: 0px 1px 0px 4px #333;
+  box-shadow: 0px 1px 0px 4px #333;
+}
+
+.card{
+  -webkit-box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  color: #494986;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  margin: 5px;
+  padding: 30px 2px 50px 2px;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 380px;
+  height: auto;
+  display: inline-block;
+}
+
+.card:hover{
+  -webkit-box-shadow: 0px 12px 30px -10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 12px 30px -10px rgba(0,0,0,0.2);
+  box-shadow: 0px 12px 30px -10px rgba(0,0,0,0.2);
+  padding: 29px 1px 49px 1px;
+  border: 1px dashed #ddd;
+  color:#333;
+  background-color: #fefefe;
+}
+
+.card:active{
+  background-color: #eee;
+  color: #333;
+}
+
+.max720{
+  -webkit-box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  width: 720px !important;
+  padding: 40px;
+  margin: auto !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p{
+  --x-height-multiplier: 0.35;
+  --baseline-multiplier: 0.179;
+  font-family: Helvetica, Roboto, sans-serif;
+  letter-spacing: .005rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -.01em;
+}
+
+b{
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.subject{
+  text-align: center;
+}
+.footer {
+  width: auto;
+  color: #333;
+  height: auto;
+  position: relative;
+  bottom: 0;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  letter-spacing: 0;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.heart {
+  display: inline;
+  font-size: 16px;
+  color: #f33;
+}
+
+.footerlink {
+  display: inline;
+  text-decoration: none;
+  color: #333;
+}
+
+table{
+  background-color: #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 0px 7px #fff;
+  -moz-box-shadow: 0px 0px 0px 7px #fff;
+  box-shadow: 0px 0px 0px 7px #fff;
+}
+
+td {
+  -webkit-transition: background-color .1s; /* Safari */
+  transition: background-color .1s;
+}
+
+td:hover {
+  background-color: #eee;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top}
+
+
+.monday, .tuesday, .wednesday, .thursday, .friday, .saturday {
+  display: none;
+}
+
+
+/* MOBILE RULES */
+@media only screen and (max-width: 768px) {
+
+  table{
+    background-color: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 0px 7px #fff;
+    -moz-box-shadow: 0px 0px 0px 7px #fff;
+    box-shadow: 0px 0px 0px 7px #fff;
+  }
+
+.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}
+
+  .max720{
+    margin: 2px;
+    width: auto;
+    margin-top: -40px;
+    padding: 20px;
+    border-radius: 0;
+  }
+
+  .card{
+    width: 90vw;
+    height: auto;
+    padding: 2px 2px 32px 2px;
+  }
+
+  .card:hover{
+    padding: 1px 1px 31px 1px;
+  }
+}
